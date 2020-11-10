@@ -1,7 +1,7 @@
 ![Git](https://i.ibb.co/YdgkwXY/download.jpg)
 
 # :computer: Git-Cheatsheet :hammer_and_wrench:
-Code snippets which detail the fundamental syntax and concepts avalaible in [Git](https://git-scm.com/)
+Code snippets which detail the fundamental syntax and concepts available in [Git](https://git-scm.com/)
 
 ## Table of Contents 📖
 1. [Introduction](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#introduction)
