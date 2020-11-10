@@ -4,7 +4,7 @@
 Code snippets which detail the fundamental syntax and concepts avalaible in [Git](https://git-scm.com/)
 
 ## Table of Contents 📖
-1. Introduction
+1. [Introduction](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#introduction)
 2. Creating Snapshots
 3. Branching and Merging
 4. Collaboration
