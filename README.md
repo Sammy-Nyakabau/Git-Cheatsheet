@@ -14,3 +14,21 @@ Code snippets which detail the fundamental syntax and concepts available in [Git
 
 ### Introduction
 >Git is a distributed revision control and source code management system with an emphasis on speed. Git was initially designed and developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) for Linux kernel development. Git is a free software distributed under the terms of the GNU General Public License version 2. This cheatsheet explains how to use Git for project version control in a distributed environment.
+
+---
+
+### Creating Snapshots :pushpin:
+-  Basic workflow of staging content and committing it to your history
+
+#### Initializing a repository
+```git
+git init
+```
+
+#### Staging files
+```git
+git add file1.js            # Stages a single file
+git add file1.js file2.js   # Stages multiple files
+git add *.js                # Stages with a pattern
+git add .                   # Stages the current directory and all its content
+```
