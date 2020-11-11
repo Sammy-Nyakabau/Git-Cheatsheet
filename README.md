@@ -5,7 +5,7 @@ Code snippets which detail the fundamental syntax and concepts available in [Git
 
 ## Table of Contents 📖
 1. [Introduction](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#introduction)
-2. Creating Snapshots
+2. [Creating Snapshots](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#creating-snapshots-pushpin)
 3. Branching and Merging
 4. Collaboration
 5. Rewriting History
@@ -36,8 +36,8 @@ git add .                   # Stages the current directory and all its content
 #### Viewing the status
 
 ```git
-git status      # Full status
-git status -s   # Short status
+git status                  # Full status
+git status -s               # Short status
 ```
 
 #### Committing the staged files
