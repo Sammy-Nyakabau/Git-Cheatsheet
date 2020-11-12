@@ -52,3 +52,32 @@ git commit                  # Opens the default editor to type a long message
 ```git
 git commit -am “Message” 
 ```
+
+#### Removing files
+
+```git
+git rm file1.js             # Removes from working directory and staging area
+git rm --cached file1.js    # Removes from staging area only 
+```
+
+#### Renaming or moving files 
+
+```git
+git mv file1.js file1.txt 
+```
+
+#### Viewing the staged/unstaged changes
+
+```git
+git diff                    # Shows unstaged changes
+git diff --staged           # Shows staged changes
+git diff --cached           # Same as the above  
+```
+
+#### Viewing the history
+
+```git
+git log                     # Full history
+git log --oneline           # Summary
+git log --reverse           # Lists the commits from the oldest to the newest 
+```
