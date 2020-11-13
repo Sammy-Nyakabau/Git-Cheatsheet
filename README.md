@@ -6,9 +6,10 @@ Code snippets which detail the fundamental syntax and concepts available in [Git
 ## Table of Contents 📖
 1. [Introduction](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#introduction)
 2. [Creating Snapshots](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#creating-snapshots-pushpin)
-3. Branching and Merging
-4. Collaboration
-5. Rewriting History
+3. [Browsing History](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#browsing-history--)
+4. Branching and Merging
+5. Collaboration
+6. Rewriting History
 
 ---
 
@@ -20,12 +21,12 @@ Code snippets which detail the fundamental syntax and concepts available in [Git
 ### Creating Snapshots :pushpin:
 -  Basic workflow of staging content and committing it to your history
 
-#### Initializing a repository
+#### Initializing a repository :paperclip:
 ```git
 git init
 ```
 
-#### Staging files
+#### Staging files :paperclip:
 ```git
 git add file1.js                # Stages a single file
 git add file1.js file2.js       # Stages multiple files
@@ -33,40 +34,40 @@ git add *.js                    # Stages with a pattern
 git add .                       # Stages the current directory and all its content
 ```
 
-#### Viewing the status
+#### Viewing the status :paperclip:
 
 ```git
 git status                      # Full status
 git status -s                   # Short status
 ```
 
-#### Committing the staged files
+#### Committing the staged files :paperclip:
 
 ```git
 git commit -m “Message”         # Commits with a one-line message
 git commit                      # Opens the default editor to type a long message
 ```
 
-#### Skipping the staging area
+#### Skipping the staging area :paperclip:
 
 ```git
 git commit -am “Message” 
 ```
 
-#### Removing files
+#### Removing files :paperclip:
 
 ```git
 git rm file1.js                 # Removes from working directory and staging area
 git rm --cached file1.js        # Removes from staging area only 
 ```
 
-#### Renaming or moving files 
+#### Renaming or moving files :paperclip:
 
 ```git
 git mv file1.js file1.txt 
 ```
 
-#### Viewing the staged/unstaged changes
+#### Viewing the staged/unstaged changes :paperclip:
 
 ```git
 git diff                        # Shows unstaged changes
@@ -74,7 +75,7 @@ git diff --staged               # Shows staged changes
 git diff --cached               # Same as the above  
 ```
 
-#### Viewing the history
+#### Viewing the history :paperclip:
 
 ```git
 git log                         # Full history
@@ -82,7 +83,7 @@ git log --oneline               # Summary
 git log --reverse               # Lists the commits from the oldest to the newest 
 ```
 
-#### Viewing a commit
+#### Viewing a commit :paperclip:
 
 ```git
 git show 921a2ff                # Shows the given commit
@@ -91,13 +92,13 @@ git show HEAD~2                 # Two steps before the last commit
 git show HEAD:file.js           # Shows the version of file.js stored in the last commit 
 ```
 
-#### Unstaging files (undoing git add)
+#### Unstaging files (undoing git add) :paperclip:
 
 ```git
 git restore --staged file.js    # Copies the last version of file.js from repo to index 
 ```
 
-#### Discarding local changes 
+#### Discarding local changes :paperclip:
 
 ```git
 git restore file.js             # Copies file.js from index to working directory
@@ -107,11 +108,12 @@ git clean -fd                   # Removes all untracked files
 
 ```
 
-#### Restoring an earlier version of a file
+#### Restoring an earlier version of a file :paperclip:
 
 ```git
 git restore --source=HEAD~2 file.js
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#table-of-contents-)**
 ---
 
 ### Browsing History  📌
