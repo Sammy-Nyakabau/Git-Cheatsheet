@@ -209,3 +209,7 @@ git tag -d v1.0                    # Deletes the given tag
 ```
 
 
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#table-of-contents-)**
+---
+
+### Branching & Merging  📌
