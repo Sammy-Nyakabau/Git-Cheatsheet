@@ -7,7 +7,7 @@ Code snippets which detail the fundamental syntax and concepts available in [Git
 1. [Introduction](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#introduction)
 2. [Creating Snapshots](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#creating-snapshots-pushpin)
 3. [Browsing History](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#browsing-history--)
-4. Branching and Merging
+4. [Branching and Merging](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#branching--merging--)
 5. Collaboration
 6. Rewriting History
 
@@ -129,8 +129,8 @@ git log --patch                 # Shows the actual changes (patches)
 
 ```git
 git log -3                      # Shows the last 3 entries
-git log --author=“Mosh”
-git log --before=“2020-08-17”
+git log --author=“Sammy”
+git log --before=“2020-11-17”
 git log --after=“one week ago”
 git log --grep=“GUI”            # Commits with “GUI” in their message
 git log -S“GUI”                 # Commits with “GUI” in their patches
@@ -141,13 +141,13 @@ git log file.txt                # Commits that touched file.txt
 #### Formatting the log output :paperclip:
 
 ```git
-git log --pretty=format:”%an committed %H”
+git log --pretty=format:"%an committed %H"
 ```
 
 #### Creating an alias :paperclip:
 
 ```git
-git config --global alias.lg “log --oneline"
+git config --global alias.lg "log --oneline"
 ```
 
 #### Viewing a commit :paperclip:
