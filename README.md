@@ -22,19 +22,19 @@ Code snippets which detail the fundamental syntax and concepts available in [Git
 -  Basic workflow of staging content and committing it to your history
 
 #### Initializing a repository :paperclip:
-```git
+```bash
 $ git init
 ```
 #### Configuring Settings  :paperclip:
 - To configure settings. Whether it be for the repository, the system itself, or global configurations ( global config file is ~/.gitconfig ).
-```git
+```bash
 # Print & Set Some Basic Config Variables (Global)
 $ git config --global user.email "sammy@sammynyakabau.com"
 $ git config --global user.name "Sammy-Nyakabau"
 ```
 
 #### Staging files :paperclip:
-```git
+```bash
 $ git add file1.js              # Stages a single file
 $ git add file1.js file2.js     # Stages multiple files
 $ git add *.js                  # Stages with a pattern
@@ -43,7 +43,7 @@ $ git add .                     # Stages the current directory and all its conte
 
 #### Viewing the status :paperclip:
 
-```git
+```bash
 git status                      # Full status
 git status -s                   # Short status
 ```
