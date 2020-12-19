@@ -23,15 +23,22 @@ Code snippets which detail the fundamental syntax and concepts available in [Git
 
 #### Initializing a repository :paperclip:
 ```git
-git init
+$ git init
+```
+#### Configuring Settings  :paperclip:
+- To configure settings. Whether it be for the repository, the system itself, or global configurations ( global config file is ~/.gitconfig ).
+```git
+# Print & Set Some Basic Config Variables (Global)
+$ git config --global user.email "sammy@sammynyakabau.com"
+$ git config --global user.name "Sammy-Nyakabau"
 ```
 
 #### Staging files :paperclip:
 ```git
-git add file1.js                # Stages a single file
-git add file1.js file2.js       # Stages multiple files
-git add *.js                    # Stages with a pattern
-git add .                       # Stages the current directory and all its content
+$ git add file1.js              # Stages a single file
+$ git add file1.js file2.js     # Stages multiple files
+$ git add *.js                  # Stages with a pattern
+$ git add .                     # Stages the current directory and all its content
 ```
 
 #### Viewing the status :paperclip:
