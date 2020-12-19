@@ -8,7 +8,7 @@ Code snippets which detail the fundamental syntax and concepts available in [Git
 2. [Creating Snapshots](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#creating-snapshots-pushpin)
 3. [Browsing History](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#browsing-history--)
 4. [Branching and Merging](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#branching--merging--)
-5. Collaboration
+5. [Collaboration](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#collaboration--)
 6. Rewriting History
 
 ---
