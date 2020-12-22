@@ -304,3 +304,12 @@ git push                          # Shortcut for “git push origin master”
 git push origin v1.0              # Pushes tag v1.0 to origin
 git push origin —delete v1.0
 ```
+
+#### Sharing branches :paperclip:
+
+```bash
+git branch -r                     # Shows remote tracking branches
+git branch -vv                    # Shows local & remote tracking branches
+git push -u origin bugfix         # Pushes bugfix to origin
+git push -d origin bugfix         # Removes bugfix from origin
+```
