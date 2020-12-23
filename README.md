@@ -313,3 +313,16 @@ git branch -vv                    # Shows local & remote tracking branches
 git push -u origin bugfix         # Pushes bugfix to origin
 git push -d origin bugfix         # Removes bugfix from origin
 ```
+
+#### Managing remotes :paperclip:
+
+```bash
+git remote                        # Shows remote repos
+git remote add upstream url       # Adds a new remote called upstream
+git remote rm upstream            # Remotes upstream
+```
+
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Git-Cheatsheet#table-of-contents-)**
+---
+
+### Rewriting History  📌
